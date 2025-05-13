@@ -1,0 +1,24 @@
+{
+  "name": "playwrightproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sample:test": "playwright test",
+    "test:labs": "playwright test --config=excelemo.config.js",
+    "test:api": "playwright test --config=api.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.1",
+    "@types/node": "^20.14.10",
+    "allure-commandline": "^2.29.0"
+  },
+  "dependencies": {
+    "allure-playwright": "^3.0.0-beta.6",
+    "dotenv": "^16.4.5",
+    "xlsx": "^0.18.5"
+  }
+}
